@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ezpay"
+    android:versionCode="1"
+    android:versionName="1.0" >
+ 
+    <uses-sdk android:minSdkVersion="8" />
+ 
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <!--  Login Activity -->
+        <activity
+            android:label="Login Account"
+            android:name=".LoginActivity" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+ 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         
+        <!--  Dashboard Activity -->
+        <activity
+             android:label="@string/app_name"
+            android:name=".DashboardActivity"
+            ></activity>
+ 
+        <!--  Register Activity -->
+        <activity
+            android:label="Register New Account"
+            android:name=".RegisterActivity"></activity>
+        
+        <!--  Withdraw Activity -->
+        <activity
+            android:label="Withdraw Money"
+            android:name=".WithdrawActivity"></activity>
+        
+        <!--  Search Activity -->
+        <activity
+            android:label="Search Goods"
+            android:name=".SearchActivity"></activity>
+        <!--  Match Activity -->
+        <activity
+            android:label="Invoice Match"
+            android:name=".CheckActivity"></activity>
+    </application>
+     
+    <!-- Allow to connect with internet -->
+    <uses-permission android:name="android.permission.INTERNET" />
+ 
+</manifest>

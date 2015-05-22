@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#3b3b3b" >
+ 
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:padding="10dip" >
+        <!--  View Title Label -->
+
+        <!--  money  -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#f0f8ff"
+            android:textStyle="bold"
+            android:text="金額" />
+        <EditText
+            android:id="@+id/withdrawMoney"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        
+        
+        <!--  authen_num  -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#f0f8ff"
+            android:textStyle="bold"
+            android:text="認證碼" />
+       
+        <EditText
+            android:id="@+id/authenticatedNum"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <!--  Withdraw message -->
+        <TextView android:id="@+id/withdrawMsg"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#e30000"
+                    android:padding="10dip"
+                    android:textStyle="bold"/>
+ 
+        <!--  Withdraw Money Button -->       
+
+        <Button
+            android:id="@+id/btnWithdraw"
+            android:topLeftRadius="10dp" 
+            android:topRightRadius="10dp" 
+            android:bottomLeftRadius="1dp" 
+            android:bottomRightRadius="1dp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dip"
+            android:textColor="#f0f8ff"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="領款"
+            android:background="#1e90ff"/>
+         <!--  Get authen_num Button -->       
+
+        <Button
+            android:id="@+id/btnAuthenticated"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="300dip"
+            android:textColor="#f0f8ff"
+            android:textSize="15dip"
+            android:textStyle="bold"
+            android:text="取得認證碼" 
+            
+            android:background="#1e90ff"/>
+ 
+        <!--  Link to Dashboard Screen -->
+        <Button
+            android:id="@+id/btnLinkToDashboard"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:background="@null"
+            android:text="回主頁面"
+            android:textColor="#ff0000"
+            android:textStyle="bold" />
+        
+    </LinearLayout>
+ 
+</ScrollView>

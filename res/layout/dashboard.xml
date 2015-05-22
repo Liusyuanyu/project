@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#3b3b3b">
+     
+    <TextView android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:text="EZpay"
+              android:textSize="40dip"
+              android:gravity="center"
+              android:textStyle="bold"
+              android:textColor="#f0f8ff"
+              android:layout_marginTop="20dip"/>
+    
+        <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center_horizontal"
+              android:textSize="10dip"
+              android:textStyle="bold"
+              android:textColor="#a9a9a9"/>
+     
+    <Button android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="登出"
+        android:textSize="20dip"
+        android:textColor="#21dbd4"
+        android:textStyle="bold"
+        android:id="@+id/btnLogout"
+        android:layout_marginTop="30dip"
+        android:background="@null"/>
+    
+    <Button android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="領款"
+        android:textSize="20dip"
+        android:textColor="#21dbd4"
+        android:textStyle="bold"
+        android:id="@+id/btnWithdraw"
+        android:layout_marginTop="30dip"
+        android:background="@null"/>
+        
+    <Button android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="購買"
+        android:textSize="20dip"
+        android:textColor="#21dbd4"
+        android:textStyle="bold"
+        android:id="@+id/btnScan"
+        android:layout_marginTop="30dip"
+        android:background="@null"/>
+    
+    <Button android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="搜尋商品"
+        android:textSize="20dip"
+        android:textColor="#21dbd4"
+        android:textStyle="bold"
+        android:id="@+id/btnSearch"
+        android:layout_marginTop="30dip"
+        android:background="@null"/>
+    
+    <Button android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="發票兌獎"
+        android:textSize="20dip"
+        android:textColor="#21dbd4"
+        android:textStyle="bold"
+        android:id="@+id/btnCheck"
+        android:layout_marginTop="30dip"
+        android:background="@null"/>
+ 
+</LinearLayout>
